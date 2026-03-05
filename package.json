@@ -30,6 +30,14 @@
   ],
   "author": "Yuyutsu",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuyutsu/react-native-network-health.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yuyutsu/react-native-network-health/issues"
+  },
+  "homepage": "https://github.com/Yuyutsu/react-native-network-health#readme",
   "peerDependencies": {
     "@react-native-community/netinfo": ">=9.0.0",
     "react": ">=17.0.0",
