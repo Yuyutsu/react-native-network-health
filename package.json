@@ -1,0 +1,53 @@
+{
+  "name": "react-native-network-health",
+  "version": "1.0.0",
+  "description": "A lightweight React Native utility that detects real network quality: slow, unstable, offline, and healthy states.",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src --ext .ts,.tsx",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "network",
+    "health",
+    "connectivity",
+    "offline",
+    "slow-network",
+    "unstable",
+    "netinfo",
+    "hooks"
+  ],
+  "author": "Yuyutsu",
+  "license": "MIT",
+  "peerDependencies": {
+    "@react-native-community/netinfo": ">=9.0.0",
+    "react": ">=17.0.0",
+    "react-native": ">=0.68.0"
+  },
+  "devDependencies": {
+    "@react-native-community/netinfo": "^11.4.1",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^18.3.20",
+    "@types/react-native": "^0.73.0",
+    "@typescript-eslint/eslint-plugin": "^8.26.0",
+    "@typescript-eslint/parser": "^8.26.0",
+    "eslint": "^9.21.0",
+    "jest": "^29.7.0",
+    "react": "^18.3.1",
+    "react-native": "^0.76.9",
+    "react-test-renderer": "^18.3.1",
+    "ts-jest": "^29.2.6",
+    "typescript": "^5.8.2"
+  }
+}
