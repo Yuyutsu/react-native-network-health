@@ -2,8 +2,8 @@
   "name": "react-native-network-health",
   "version": "1.0.0",
   "description": "A lightweight React Native utility that detects real network quality: slow, unstable, offline, and healthy states.",
+  "type": "commonjs",
   "main": "lib/index.js",
-  "module": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib",
