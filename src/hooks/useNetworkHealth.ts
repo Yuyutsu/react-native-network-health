@@ -49,7 +49,6 @@ export function useNetworkHealth(config?: NetworkHealthConfig): NetworkHealth {
       monitorRef.current = null;
     };
     // Config is read once at mount — monitor instance owns the config lifetime.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const on = useCallback(
